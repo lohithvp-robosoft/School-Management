@@ -1,4 +1,4 @@
-public class UniversityNonTeachingStaff extends Person{
+public class UniversityNonTeachingStaff extends Person {
 
     public UniversityNonTeachingStaff(String name, String email, long phone) {
         super(name, email, phone);
@@ -13,7 +13,7 @@ public class UniversityNonTeachingStaff extends Person{
         return "Staff{" +
                 "Staff Name='" + name + ", " +
                 "Email=" + email + ", " +
-                "phone :" + phone+ ", " +
+                "phone :" + phone + ", " +
                 '}';
     }
 }
